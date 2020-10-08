@@ -1,0 +1,6 @@
+automation.assertions
+com.web.automation.base
+com.web.automation.pages
+com.web.automation.runner
+com.web.automation.stepDefinition
+com.web.automation.utility

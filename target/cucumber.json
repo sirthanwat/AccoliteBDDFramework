@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Register user",
+        "description": "",
+        "id": "registered-login-activity;register-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8683960945,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the browser",
+            "match": {
+              "location": "StepDefinition.launchBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17981270,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is navigating google homepage in a browser",
+            "match": {
+              "location": "StepDefinition.verifyGooglehomepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 269240673,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User will search for ‘Accolite’ text",
+            "match": {
+              "location": "StepDefinition.searchAccoliteText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34970592,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User will count the number of links ‘Accolite’ returned on the results page",
+            "match": {
+              "location": "StepDefinition.verifyAcoliteLinkCount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 187699015,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the browser",
+            "match": {
+              "location": "StepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registered login activity",
+    "description": "",
+    "id": "registered-login-activity",
+    "keyword": "Feature",
+    "uri": "Assignment1.feature"
+  }
+]

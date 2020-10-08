@@ -1,0 +1,8 @@
+Feature: Registered login activity
+
+  Scenario: Register user                                                            # Assignment1.feature:3
+    Given Open the browser                                                           # StepDefinition.launchBrowser()
+    When User is navigating google homepage in a browser                             # StepDefinition.verifyGooglehomepage()
+    And User will search for ‘Accolite’ text                                         # StepDefinition.searchAccoliteText()
+    Then User will count the number of links ‘Accolite’ returned on the results page # StepDefinition.verifyAcoliteLinkCount()
+    Then Close the browser                                                           # StepDefinition.close_the_browser()

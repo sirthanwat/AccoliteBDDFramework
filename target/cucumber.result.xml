@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.193852">
+<testcase classname="Registered login activity" name="Register user" time="9.193852">
+<system-out><![CDATA[Given Open the browser......................................................passed
+When User is navigating google homepage in a browser........................passed
+And User will search for ‘Accolite’ text....................................passed
+Then User will count the number of links ‘Accolite’ returned on the results page.passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
